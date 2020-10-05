@@ -8,11 +8,14 @@
     "title": "Requirements",
     "url": "/lessons/requirements"
   }, {
-    "title": "Lesson 1: Bootstrap your app",
+    "title": "Lesson 1: Bootstrap a Headless App",
     "url": "/lessons/lesson1"
   }, {
-    "title": "Lesson 2: Write your app",
+    "title": "Lesson 2: Set up alarms feed with trigger and rule",
     "url": "/lessons/lesson2"
+  }, {
+    "title": "Lesson 3: Types of alarm feed",
+    "url": "/lessons/lesson3"
   }, {
     "title": "Well done",
     "url": "/lessons/welldone"

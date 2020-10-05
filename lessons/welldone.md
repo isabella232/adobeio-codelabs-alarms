@@ -1,15 +1,14 @@
 ## Well done
 
-You have successfully completed the codelab and learnt how to build an awesome app.
+Congratulations! You have successfully completed the codelab.
 
 ### Achievements
 
 You have learned: 
 
-* A
-* B
-* C
+* How to set up a headless Firefly app with a scheduler using triggers and rules
+* How to apply different types of alarm feed to fit your need
 
-### What's next ?
+### What's next?
 
-Stay tuned.
+Check out other useful codelabs for your projects at [Adobe I/O Codelabs website](https://adobedocs.github.io/adobeio-codelabs).
