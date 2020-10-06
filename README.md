@@ -6,4 +6,4 @@ Project Firefly simplifies the process of building Cloud Native Applications tha
 
 For [headless applications](https://github.com/AdobeDocs/project-firefly/blob/master/guides/architecture_overview.md#headless-application), you may need to set up recurring jobs or tasks, such as invoking a data importing action every hour. To achieve that, you could leverage [OpenWhisk Alarms Package](https://github.com/apache/openwhisk-package-alarms) to fire a trigger at a specified frequency. 
 
-Next: [Requirements](lesson/requirements.md)
+Next: [Requirements](lessons/requirements.md)
