@@ -7,7 +7,7 @@ Congratulations! You have successfully completed the codelab.
 You have learned: 
 
 * How to set up a headless Firefly app with a scheduler using triggers and rules
-* How to apply different types of alarm feed to fit your need
+* How to apply various types of alarm feed for different scheduling requirements
 
 ### What's next?
 

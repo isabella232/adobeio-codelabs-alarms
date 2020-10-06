@@ -1,6 +1,6 @@
-## Lesson 3: Types of alarm feed
+## Lesson 3: Types of Alarm Feed
 
-Apart from the `/whisk.system/alarms/interval` feed in lesson 2, the alarms provider in Adobe I/O Runtime supports other types of feed.
+Beside the `/whisk.system/alarms/interval` feed in lesson 2, the alarms provider in Adobe I/O Runtime supports other types of feed.
 
 ### Firing a trigger once
 
@@ -19,16 +19,16 @@ Please note that `YYYY-MM-DDTHH:mm:ss.sssZ` is just a format for this field. You
 
 ### Firing a trigger on a time-based schedule using cron
 
-The `/whisk.system/alarms/alarm` feed allows you to [fire event on a time-based schedule using cron](https://github.com/apache/openwhisk-package-alarms#firing-a-trigger-on-a-time-based-schedule-using-cron). This is more generic than the `interval` and `once` feeds, because you can write crontab to configure the alarm service to trigger at the exact time and interval as you wish. The only required param is `cron`, which is a string based on the [UNIX crontab syntax](http://crontab.org) that indicates when to fire the trigger in UTC. Optional params are `trigger_payload`, `timezone`, `startDate` and `stopDate`. 
+The `/whisk.system/alarms/alarm` feed allows you to [fire event on a time-based schedule using cron](https://github.com/apache/openwhisk-package-alarms#firing-a-trigger-on-a-time-based-schedule-using-cron). This is more generic than the `interval` and `once` feeds, because you can write crontab to configure the alarm service to trigger at the exact time and interval you want. The only required param is `cron`, which is a string based on the [UNIX crontab syntax](http://crontab.org) that indicates when to fire the trigger in UTC. Optional params are `trigger_payload`, `timezone`, `startDate` and `stopDate`. 
 
-The following example shows a cron schedule at 2am on Sundays.
+The following example shows a cron schedule at 2am on Sundays in Central Europe Timezone (CET).
 
 ```yaml
 triggers:
   sunday2am:
-    feed: /whisk.system/alarms/once
+    feed: /whisk.system/alarms/alarm
     inputs: 
-      cron: 0 2 7 * *
+      cron: 0 2 * * 7
       timezone: CET
       startDate: 1601918992704
       stopDate: 1651918992704
