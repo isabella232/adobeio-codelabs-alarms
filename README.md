@@ -1,6 +1,6 @@
-# Schedule Cron Jobs with Alarms Package
+# Scheduling Cron Jobs with Alarms
 
-This codelab will guide you through creating cron jobs in a Firefly application using Openwhisk Alarms Package. 
+This codelab will guide you through creating cron jobs in a Firefly application using OpenWhisk Alarms Package. 
 
 Project Firefly simplifies the process of building Cloud Native Applications that leverage Adobe I/O Runtime, which is based on OpenWhisk and uses its architecture to provide function-as-a-service (FaaS). 
 
